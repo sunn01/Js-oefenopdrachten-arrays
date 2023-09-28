@@ -1,4 +1,4 @@
-//opdracht 1
+/*opdracht 1
 let array1 = [4, 5, 8, 12, -1, 99];
 console.log(array1);
 
@@ -50,4 +50,13 @@ ul.innerHTML += '<li>' + film + '</li>';
 film = prompt('Vul een naam van een film in');
 ul.innerHTML += '<li>' + film + '</li>';
 
-console.log(film);
+console.log(film);*/
+
+//opdracht 11 
+array4 = ['Michael Jackson', 'Justin Bieber', 'Taylor Swift', 'Frenna', 'Lil Baby']
+const btn = document.querySelector('.btn');
+const div = document.querySelector('.function');
+
+btn.addEventListener('click', function() {
+    div.innerHTML = array4
+});
