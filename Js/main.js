@@ -54,9 +54,12 @@ console.log(film);*/
 
 //opdracht 11 
 array4 = ['Michael Jackson', 'Justin Bieber', 'Taylor Swift', 'Frenna', 'Lil Baby']
-const btn = document.querySelector('.btn');
-const div = document.querySelector('.function');
+let artistList = document.querySelector('.artists');
+const btnAdd = document.querySelector('.btn-add');
+let index = 0;
+btnAdd.addEventListener('click', function() {
+    let artist = artists[index]
+    artistList.innerHTML += '<li>' = artist = '</li>';
 
-btn.addEventListener('click', function() {
-    div.innerHTML = array4
+    index++;
 });
